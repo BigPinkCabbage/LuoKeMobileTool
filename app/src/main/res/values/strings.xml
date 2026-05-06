@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">洛克手游辅助小工具</string>
+    <string name="accessibility_service_description">用于模拟点击屏幕坐标，实现自动按键功能</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 使用 AppCompat 主题，不要使用 Material 主题 -->
+    <style name="Theme.LuokeToolDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- 关键：禁用所有按钮的 Material 样式 -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+
+        <!-- 背景色 -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
